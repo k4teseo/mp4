@@ -1,0 +1,54 @@
+{
+  "blushes": [
+    {
+      "id": 1,
+      "name": "Dew Blush Blendable Liquid Blush",
+      "brand": "Saie",
+      "price": 25.00,
+      "size": "0.40 oz",
+      "rating": 4.4,
+      "type": "liquid",
+      "carrier": "Sephora"
+    },
+    {
+      "id": 2,
+      "name": "Major Headlines Double-Take Crème & Powder Blush Duo",
+      "brand": "Patrick Ta",
+      "price": 38.00,
+      "size": "0.35 oz",
+      "rating": 4.7,
+      "type": "cream and powder",
+      "carrier": "Sephora"
+    },
+    {
+      "id": 3,
+      "name": "Soft Pop Blush Stick",
+      "brand": "Makeup by Mario",
+      "price": 32.00,
+      "size": "0.37 oz",
+      "rating": 4.3,
+      "type": "cream",
+      "carrier": "Sephora"
+    },
+    {
+      "id": 4,
+      "name": "BACKSTAGE Rosy Glow Blush",
+      "brand": "Dior",
+      "price": 40.00,
+      "size": "0.15 oz",
+      "rating": 4.2,
+      "type": "powder",
+      "carrier": "Sephora"
+    },
+    {
+      "id": 5,
+      "name": "Matte Beauty Blush Wand",
+      "brand": "Charlotte Tilbury",
+      "price": 42.00,
+      "size": "0.40 oz",
+      "rating": 4.3,
+      "type": "liquid",
+      "carrier": "Sephora"
+    }
+  ]
+}
