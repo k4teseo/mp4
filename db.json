@@ -7,7 +7,7 @@
       "price": 25.00,
       "size": "0.40 oz",
       "rating": 4.4,
-      "type": "liquid",
+      "type": "Liquid",
       "carrier": "Sephora"
     },
     {
@@ -17,7 +17,7 @@
       "price": 38.00,
       "size": "0.35 oz",
       "rating": 4.7,
-      "type": "cream and powder",
+      "type": "Cream and Powder",
       "carrier": "Sephora"
     },
     {
@@ -27,7 +27,7 @@
       "price": 32.00,
       "size": "0.37 oz",
       "rating": 4.3,
-      "type": "cream",
+      "type": "Cream",
       "carrier": "Sephora"
     },
     {
@@ -37,7 +37,7 @@
       "price": 40.00,
       "size": "0.15 oz",
       "rating": 4.2,
-      "type": "powder",
+      "type": "Powder",
       "carrier": "Sephora"
     },
     {
@@ -47,7 +47,7 @@
       "price": 42.00,
       "size": "0.40 oz",
       "rating": 4.3,
-      "type": "liquid",
+      "type": "Liquid",
       "carrier": "Sephora"
     }
   ]

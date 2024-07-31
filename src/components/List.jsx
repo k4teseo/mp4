@@ -1,26 +1,38 @@
-import useSWR from "swr";
+import { useEffect, useState } from "react";
+import Item from "./Item.jsx";
 
 export default function List() {
-    const { data, error } =
-        useSWR(
-            "https://my-json-server.typicode.com/k4teseo/mp4/blushes",
-            (url) =>
-                fetch(url).then((res) => res.json())
-        );
+    const [data, setData] = useState([]);
 
-    if (error) return <div><p>Failed to Load</p></div>;
-    if (!data) return <div><p>Loading...</p></div>;
+    useEffect(() => {
+        async function fetcher() {
+            try {
+                const rawData = await fetch("https://my-json-server.typicode.com/k4teseo/mp4/blushes");
+                const blushes = await rawData.json();
+                setData(blushes);
+                console.log("Yay");
+            } catch (error) {
+                console.log("Nay");
+            }
+        }
+
+        fetcher();
+    }, []);
 
     return (
         <>
-            {
-                data.blushes.map((blush) => (
-                    <div key={blush.id}>
-                        <h1>{blush.name}</h1>
-                        <p>{blush.brand}</p>
-                    </div>
-                ))
-            }
+            {data.map((blush) => (
+                <Item
+                    key={blush.id}
+                    name={blush.name}
+                    brand={blush.brand}
+                    price={blush.price}
+                    size={blush.size}
+                    rating={blush.rating}
+                    type={blush.type}
+                    carrier={blush.carrier}
+                />
+            ))}
         </>
     );
 }
